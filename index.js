@@ -13,6 +13,7 @@ app.use(json());
 //middlewares of apis.
 app.use("/post",router);
 app.use("/get",router);
+app.use("/get",router);
 app.use("/update",router);
 app.use("/update",router);
 app.use("/delete",router);
